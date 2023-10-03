@@ -9,6 +9,9 @@ import nl.lego4rent.domain.shared.Event
 import java.lang.IllegalStateException
 import java.util.UUID
 
+/**
+ * One Lego® set, identified by an internal box number.
+ */
 class BoxAggregate(
         val boxNumber: UUID,
         private var boxStatus: BoxStatus,
